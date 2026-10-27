@@ -1,0 +1,15 @@
+# Dependances du projet SOL_Python.
+# Python 3.12 ou plus recent requis par la syntaxe de SOL_3D_Geometry.py.
+# Installation : python -m pip install -r requirements.txt
+# Versions non figees : aucun environnement de reference fourni.
+
+numpy
+scipy
+geopy
+astropy
+jplephem
+spiceypy
+pyvista
+vtk
+# Rendu Matplotlib utilise par vtkRenderingMatplotlib.
+matplotlib

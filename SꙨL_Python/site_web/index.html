@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#171d1b">
+  <meta name="description" content="Découvrez les enjeux de lumière et de communication au pôle Sud lunaire et le projet de simulateur SꙨL pour explorer les positions du Soleil et de la Terre.">
+  <title>SꙨL — Comprendre l’horizon lunaire</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+  <header class="header">
+    <a class="brand" href="#accueil" aria-label="SꙨL, accueil">S<span class="brand-orbit">Ꙩ</span>L<span class="brand-caption">LUNAR HORIZON</span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="navigation">Menu <span aria-hidden="true">＋</span></button>
+    <nav id="navigation" aria-label="Navigation principale">
+      <a href="#enjeu">L’enjeu</a><a href="#simulateur">Le projet</a><a href="#explorer">Comprendre</a><a class="nav-cta" href="#telecharger">Le simulateur <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+  <main id="contenu">
+    <section class="hero" id="accueil" aria-labelledby="titre">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> EXPLORATION · PÔLE SUD LUNAIRE</p>
+        <h1 id="titre">Chaque mission<br>commence par<br>un <em>horizon.</em></h1>
+        <p class="hero-description">Sur la Lune, voir le Soleil et garder la Terre en vue change tout. Découvrez les enjeux qui guident le choix d’un site d’alunissage.</p>
+        <div class="hero-actions"><a class="button button-lime" href="#simulateur">Découvrir le projet <span aria-hidden="true">↗</span></a><a class="text-link" href="#enjeu">Comprendre l’enjeu <span aria-hidden="true">↓</span></a></div>
+        <div class="hero-note"><span class="crosshair" aria-hidden="true">⊕</span><span>UN HORIZON, DEUX QUESTIONS<br><strong>Où est la lumière ? Où est la Terre ?</strong></span></div>
+      </div>
+      <div class="hero-visual">
+        <div class="visual-topline"><span>REGARD VERS LE SUD</span><span>01 / LUNE</span></div>
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <img class="moon" src="assets/moon.svg" alt="Illustration de la Lune dont les cratères du pôle Sud passent progressivement dans l’ombre." width="700" height="700">
+        <div class="moon-marker"><span class="marker-dot"></span><span>PÔLE SUD<br><small>La lumière se joue à l’horizon.</small></span></div>
+        <div class="visual-bottomline"><span>ILLUSTRATION · VUE CONCEPTUELLE</span><span aria-hidden="true">＋</span></div>
+      </div>
+    </section>
+    <div class="topic-strip" aria-label="Les trois dimensions du projet"><span><b>01</b> ÉCLAIREMENT SOLAIRE</span><span><b>02</b> VISIBILITÉ DE LA TERRE</span><span><b>03</b> CHOIX DU SITE ET DE LA DATE</span></div>
+    <section class="section challenge" id="enjeu" aria-labelledby="enjeu-titre">
+      <div class="section-intro"><p class="eyebrow">01 / L’ENJEU</p><h2 id="enjeu-titre">Un paysage fascinant.<br>Des contraintes extrêmes.</h2><p>Une mission ne se prépare pas seulement sur une carte. Au pôle Sud lunaire, le relief et la position des astres font de chaque horizon une donnée essentielle.</p></div>
+      <div class="challenge-grid">
+        <article class="challenge-card"><span class="line-icon" aria-hidden="true">☼</span><span class="card-number">01 — ÉNERGIE</span><h3>Trouver la lumière</h3><p>Un Soleil bas sur l’horizon peut être masqué par le relief. Comprendre sa visibilité aide à évaluer les possibilités de production d’énergie solaire.</p><span class="card-footer">SOLEIL → ÉCLAIREMENT → ÉNERGIE</span></article>
+        <article class="challenge-card"><span class="line-icon earth-icon" aria-hidden="true">◎</span><span class="card-number">02 — COMMUNICATION</span><h3>Garder le lien</h3><p>Une liaison directe avec la Terre dépend de sa visibilité depuis le site. Repérer ses passages au-dessus de l’horizon aide à comprendre les fenêtres de communication possibles.</p><span class="card-footer">TERRE → VISIBILITÉ → LIAISON DIRECTE</span></article>
+        <article class="challenge-card"><span class="line-icon" aria-hidden="true">⌖</span><span class="card-number">03 — COORDINATION</span><h3>Choisir ensemble</h3><p>Les objectifs scientifiques et les contraintes techniques se rencontrent dans le choix du lieu et du moment. Une lecture claire des données facilite ce dialogue.</p><span class="card-footer">SITE + DATE → DÉCISION ÉCLAIRÉE</span></article>
+      </div>
+    </section>
+    <section class="project section" id="simulateur" aria-labelledby="projet-titre">
+      <div class="project-heading"><p class="eyebrow">02 / LE PROJET</p><h2 id="projet-titre">Rendre l’horizon<br><em>plus lisible.</em></h2></div>
+      <div class="project-copy"><p class="large-copy">Des outils existent. L’information essentielle doit être plus facile à explorer.</p><p>Le projet porté par <code>NASA.py</code> s’inscrit dans ce défi : proposer une approche intuitive pour comparer des sites et des dates, et visualiser les positions du Soleil et de la Terre par rapport à l’horizon.</p><p>Ce site présente cette vision. La liste des fonctions disponibles et les instructions d’installation seront précisées avec la version téléchargeable.</p><ol class="project-steps"><li><span>01</span><div><h3>Situer</h3><p>Explorer un site candidat et une date.</p></div></li><li><span>02</span><div><h3>Visualiser</h3><p>Lire les positions du Soleil et de la Terre par rapport à l’horizon.</p></div></li><li><span>03</span><div><h3>Comparer</h3><p>Mettre en perspective l’éclairement et les possibilités de liaison directe.</p></div></li></ol><p class="small-note">Parcours visé par le projet, à confirmer dans la version distribuée.</p></div>
+    </section>
+    <section class="section explore" id="explorer" aria-labelledby="explorer-titre">
+      <div class="explore-heading"><div><p class="eyebrow">03 / COMPRENDRE EN UN REGARD</p><h2 id="explorer-titre">Tout se joue<br>à la ligne d’horizon.</h2></div><p>Au-dessus, un astre est géométriquement visible. En dessous, il est masqué. Explorez ce principe avec un schéma simplifié.</p></div>
+      <div class="horizon-demo">
+        <div class="demo-heading"><span><span class="status-dot"></span> SCHÉMA PÉDAGOGIQUE</span><span>POSITIONS FICTIVES</span></div>
+        <svg class="horizon-chart" viewBox="0 0 960 350" role="img" aria-labelledby="chart-title chart-desc">
+          <title id="chart-title">Positions illustratives du Soleil et de la Terre par rapport à l’horizon</title><desc id="chart-desc">Le curseur déplace le Soleil et la Terre au-dessus ou en dessous d’un horizon simplifié. Ces positions ne représentent pas des calculs astronomiques.</desc>
+          <defs><pattern id="grid" width="80" height="60" patternUnits="userSpaceOnUse"><path d="M 80 0 L 0 0 0 60" fill="none" stroke="#ffffff" stroke-opacity=".07"/></pattern></defs>
+          <rect width="960" height="350" fill="url(#grid)"/>
+          <path d="M0 246 L85 239 L150 247 L245 240 L320 246 L400 238 L480 244 L560 240 L660 247 L740 241 L850 246 L960 240 V350 H0Z" fill="#28322c"/>
+          <path d="M65 240 H900" stroke="#d5ed9e" stroke-dasharray="6 7" opacity=".7"/>
+          <text x="65" y="224" class="chart-label">HORIZON LOCAL SIMPLIFIÉ · 0°</text>
+          <path d="M160 240 Q480 -70 800 240" fill="none" stroke="#a3b5a4" stroke-opacity=".35" stroke-dasharray="4 8"/>
+          <g id="sun-object" transform="translate(350 112)"><circle r="35" fill="#d5ed9e" opacity=".08"/><circle r="20" fill="#d5ed9e"/><path d="M0 -33V-27M0 27V33M-33 0H-27M27 0H33M-24 -24L-20 -20M20 20L24 24M24 -24L20 -20M-20 20L-24 24" stroke="#d5ed9e" stroke-width="2"/><text y="59" text-anchor="middle" class="object-label">SOLEIL</text></g>
+          <g id="earth-object" transform="translate(700 180)"><circle r="17" fill="#8ebcc8"/><path d="M-9 -12L-2 -4L-7 4L2 13L8 7L5 0L12 -6L4 -14Z" fill="#456e67"/><text y="43" text-anchor="middle" class="object-label">TERRE</text></g>
+          <g transform="translate(480 240)"><path d="M-10 22L0 0L10 22M-6 14H6" stroke="#edf0e7" stroke-width="2" fill="none"/><circle cy="-4" r="4" fill="#edf0e7"/><text y="63" text-anchor="middle" class="chart-label">SITE D’OBSERVATION</text></g>
+        </svg>
+        <div class="demo-controls"><label for="scenario">Explorer une situation <output id="scenario-value" for="scenario">50 / 100</output><input type="range" id="scenario" min="0" max="100" value="50"><span class="range-labels"><span>Situation A</span><span>Situation B</span></span></label><div class="demo-status" aria-live="polite"><p><span class="legend-dot sun-dot"></span>Soleil <strong id="sun-status">Au-dessus de l’horizon</strong></p><p><span class="legend-dot earth-dot"></span>Terre <strong id="earth-status">Au-dessus de l’horizon</strong></p></div></div>
+      </div>
+      <p class="demo-disclaimer">Illustration interactive uniquement : aucune éphéméride, date ou donnée de terrain n’est calculée ici. La visibilité seule ne garantit ni une puissance solaire suffisante ni une liaison radio opérationnelle.</p>
+      <noscript><p>Activez JavaScript pour déplacer les astres dans le schéma. Le reste du site est accessible sans JavaScript.</p></noscript>
+    </section>
+    <section class="audience section" aria-labelledby="public-titre"><p class="eyebrow">UN MÊME HORIZON, PLUSIEURS REGARDS</p><h2 id="public-titre">De la préparation de mission<br>à la curiosité scientifique.</h2><div class="audience-grid"><article><span>↗</span><h3>Équipes de mission</h3><p>Une vision commune pour discuter des contraintes scientifiques et techniques d’un site.</p></article><article><span>↗</span><h3>Enseignants et étudiants</h3><p>Un support pour expliquer le rôle de la géométrie, de la lumière et des communications.</p></article><article><span>↗</span><h3>Esprits curieux</h3><p>Une porte d’entrée pour comprendre ce qui rend l’exploration du pôle Sud si particulière.</p></article></div></section>
+    <section class="download section" id="telecharger" aria-labelledby="telecharger-titre"><div><p class="eyebrow">04 / ALLER PLUS LOIN</p><h2 id="telecharger-titre">Le prochain pas :<br><em>explorer par vous-même.</em></h2><p>Le simulateur sera proposé au téléchargement depuis cette page. Sa distribution et son guide d’installation seront ajoutés dans une prochaine étape du projet.</p></div><div class="download-panel"><span class="file-icon" aria-hidden="true">↓</span><h3>Le simulateur SꙨL</h3><p>Projet Python · NASA.py</p><span class="availability">EN PRÉPARATION</span><button class="button download-button" type="button" disabled aria-describedby="download-note">Téléchargement à venir <span aria-hidden="true">↓</span></button><p id="download-note" class="small-note">Aucun fichier n’est encore distribué sur ce site.</p></div></section>
+    <section class="faq section" aria-labelledby="faq-titre"><div><p class="eyebrow">QUELQUES REPÈRES</p><h2 id="faq-titre">Avant de partir.</h2></div><div class="faq-items"><details><summary>Ce site permet-il déjà de simuler une mission ?</summary><p>Ce site est informatif. Le schéma interactif explique un principe avec des positions fictives ; il ne remplace pas le simulateur Python ni un outil de planification de mission.</p></details><details><summary>Pourquoi comparer plusieurs sites et plusieurs dates ?</summary><p>La position apparente des astres et les obstacles à l’horizon influencent la visibilité du Soleil et de la Terre. Comparer le lieu et le moment permet d’examiner différentes conditions d’éclairement et de communication.</p></details><details><summary>Comment installer le simulateur ?</summary><p>Le téléchargement sera intégré ultérieurement. Les prérequis, dépendances et étapes de lancement seront documentés lors de la mise à disposition de la version distribuable.</p></details><details><summary>Est-ce un site officiel de la NASA ?</summary><p>Non. Ce site présente un projet de simulateur indépendant. Le nom du fichier NASA.py ne constitue pas une affiliation ou une validation par la NASA.</p></details></div></section>
+  </main>
+  <footer><a class="brand" href="#accueil" aria-label="SꙨL, retour à l’accueil">S<span class="brand-orbit">Ꙩ</span>L</a><p>Comprendre la lumière. Garder le lien. Explorer la Lune.</p><a href="#accueil">Retour en haut ↑</a><div class="footer-bottom"><span>PROJET ÉDUCATIF ET INFORMATIF · SꙨL</span><span>ILLUSTRATIONS CONCEPTUELLES · AUCUNE AFFILIATION À LA NASA</span></div></footer>
+</body>
+</html>
