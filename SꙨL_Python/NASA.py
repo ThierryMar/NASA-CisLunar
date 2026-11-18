@@ -1206,8 +1206,8 @@ def create_scene():
     """Construit la fenêtre PyVista et son curseur temporel de ±20 ans."""
     earth_texture_path = IMAGE_DIR / "World with Ice (4000x2000).jpg"
     # Dérivée 4K 16 bits de la carte LROC, plus adaptée à une texture GPU.
-    moon_texture_path = IMAGE_DIR / "lroc_color_16bit_srgb_4k.png"
-    starfield_path = IMAGE_DIR / "starmap_16k.jpg"
+    moon_texture_path = IMAGE_DIR / "Moon.jpg"
+    starfield_path = IMAGE_DIR / "starmap_4k.jpg"
     for texture_path in (earth_texture_path, moon_texture_path, starfield_path):
         if not texture_path.is_file():
             raise FileNotFoundError(f"Image introuvable : {texture_path}")

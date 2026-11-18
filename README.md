@@ -17,7 +17,7 @@ Le lancement de l’interface 3D nécessite un environnement graphique compatibl
 
 - `SꙨL_Python/NASA.py` : application principale.
 - `SꙨL_Python/SOL_Tools/` : calculs orbitaux, constantes, géométrie et outils graphiques utilisés par l’application.
-- `SꙨL_Python/SOL_Tools/DATA/` : ressources graphiques.
+- `SꙨL_Python/SOL_Tools/DATA/Images/` : textures de la Terre, de la Lune et du ciel, avec crédits dans `ASSETS.md`.
 - `SꙨL_Python/requirements.txt` : bibliothèques Python requises.
 - `SꙨL_Python/site_web/` : site informatif statique du projet.
 
