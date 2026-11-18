@@ -1,3 +1,4 @@
+# © 2026 Thierry Marcoux et Zacharie Robitaille Jean.
 import numpy as np
 from pathlib import Path
 import sys, os

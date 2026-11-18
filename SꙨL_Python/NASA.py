@@ -1,3 +1,4 @@
+# © 2026 Thierry Marcoux et Zacharie Robitaille Jean.
 """Visualiseur interactif de la position géocentrique de la Lune."""
 
 from datetime import datetime, timedelta, timezone

@@ -1,3 +1,4 @@
+# © 2026 Thierry Marcoux et Zacharie Robitaille Jean.
 # ╭──────────────────────╮
 # │  SOL_3D_Geometry.py  │ 3D geometry drawing with Python
 # ╰──────────────────────╯

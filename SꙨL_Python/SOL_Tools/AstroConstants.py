@@ -1,3 +1,4 @@
+# © 2026 Thierry Marcoux et Zacharie Robitaille Jean.
 # ┌───────────────────────────────┐
 # │  SOL_Tools\AstroConstants.py  │ 
 # └───────────────────────────────┘
